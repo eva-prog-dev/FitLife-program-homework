@@ -2,7 +2,7 @@ WATER_PER_KG = 30
 ML_TO_LITERS = 1000
 
 print("Приветствую в приложении FitLife!")
-user_name = input("Давайте познакомимся! Как Вас зовут? ")
+user_name = input("Давайте познакомимся! Как Вас зовут? - ")
 
 try:
     user_age = int(input(f"Приветствую , {user_name}, теперь введите Ваш возраст: "))
@@ -10,7 +10,7 @@ except ValueError:
     print("Возраст должен быть целым числом")
 
 try:
-    user_weight = float(input("Теперь введите,пожалуйста, Ваш вес в килограммах: "))
+    user_weight = float(input("Теперь введите, пожалуйста, Ваш вес в килограммах: "))
 except ValueError:
     print("Введите вес числовым значением - пример: 60.5")
 
